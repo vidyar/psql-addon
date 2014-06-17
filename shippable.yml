@@ -20,6 +20,7 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $name and $version and $abc, $xyz
+  - echo $foo and $1
 
 addons:
     postgresql : 9.1
@@ -29,4 +30,4 @@ env:
    - secure: IGugu24ZRaRbXOPzFfy8L8IVSq2TT4OmzubX8Ely/FIflMi+95gzkh9fSbIYyui/uWfcPu42nLoTEQ1KpF/yVSpWcPenphPRVh0HfGSfeMhUyiNF6VHYuG0N9m6MjGhltLnOw/JgLfiPEF8sgt5qZOmQk4kshW/jfA7+d4INs1Y0nULnYwbGRvj19uvcwyWLB4d/W1S33X/5JKT44hnw+AliV4yS/l/L4iRUtscVYcbeYW52mGFVMIg3u5BjU9nlYUr5Yb8NRfLGakdedMv4xpqYDz5cpOPbpPLaIyhcnY+HzUYbXXfV38Mf6R9J0ITgWzermsxKq+98T8Lf2s4uw== 
  matrix:
    - secure: b4XOYOn/KYL2n/1PLR5jZiXxZxfH7caIUYbsqPoPMmn6qsYhKC2aVqgLGSUJC2K0qVU3R/eAI0+32QQIijDbAgIKY/9UCVcjUO0D5y3ONslkWCsLzhGrUUGDD0rSs2XNf8ET9wtjQ/hgXBwwKIO8GMco4zG4v2e3sGFb1agbGD5Lz7KAwikUf+WZoVIOrhvpsDQgnoVT55vCGpnmOiUyPGiWAQ8V9YFBmTk+ikyCYuOeeHppstEWdmn/fVYc1VXfdMxBHOqLPuqoS7Zw8eBTlP13tlh/kSY/57pMdH2rm2ZgAiyEppkqYj2xMpU8quDxMXd5s/x0tocmtgEosUNaJQ==
-   
+   - secure: QZ6nUkJLmiGPgncZVwLPI9QnS5WQFyg3CJphHq5RuWWUv3oEvcpqVQb1uK0/W+qfVcm6kuFT9q3ZZofDc7DH+hrB/VZiJKTWBygq3sk1ysOkXRW+mAExjuDVwA2ccPq+OxSM/hUAxYinrdLrO+A1f9iWruI0jV8t1+H0y4lS5/JN5h2bobedAmTPK8YvJg31gSPnHjugpT0NeCZXLvb6eGhsTOBdUK5XXNx/SyCqS6GJgK6cHzellAEgCbYKWaPHqizXRGegN3Tv77WzPlyD7KZSwXsGb8eaIeNs5HUFVKkupW2NIZcA/gOomu2sX1phaAgBe0tvx97KmO7bgx0sMw==
