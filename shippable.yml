@@ -19,8 +19,8 @@ script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
-  - echo $name and $version and $abc, $xyz
-  - echo $foo and $1
+ # - echo $name and $version and $abc, $xyz
+  - echo $name and $caste
 
 addons:
     postgresql : 9.1
