@@ -23,7 +23,7 @@ script:
   - echo $name and $caste
 
 addons:
-    postgresql : 9.1
+    postgresql : 9.3
 env:
  global:
    - secure: STTUcb2wLzn/btRuiAEsTGwueQFlRlAjEtwuQjalJek0aw9Xme0vg1WTVgW8TIVHxMqsWADNvNc3Arkz0ALcub2s6FsF05NBIDix7qcfme69lBGMIOfNizG7qJuiLjZ/rD1LKYkIijmxGLhr1fTFVRksN2o3yc2hRoAaXY6aAJoD+20Odwru1IH5z+Uu+3XctmXAVM2MpQgp4xwdlE4vuPttKdLxxzKnoh9GUmn+E8+Gau++PHlARSickupLiqET8ssyJFmEtBGU1UMAsrNPlKjQWalVqSLn15e5qZcHHX95hPPzIYrx7u4A96aryCEAAy7b8+Q5EqmlzlBCkfDvqg==
